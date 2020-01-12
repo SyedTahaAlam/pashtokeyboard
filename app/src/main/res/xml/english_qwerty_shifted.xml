@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="1.2%p"
+    android:keyWidth="10%p"
+    android:keyHeight="@dimen/key_height"
+
+    android:verticalGap="35px"
+    >
+    <Row android:keyWidth="8.6%p">
+        <Key android:keyLabel="Q" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="W"/>
+        <Key android:keyLabel="E"/>
+        <Key android:keyLabel="R"/>
+        <Key android:keyLabel="T"/>
+        <Key android:keyLabel="Y"/>
+        <Key android:keyLabel="U"/>
+        <Key android:keyLabel="I"/>
+        <Key android:keyLabel="O"/>
+        <Key android:keyLabel="P" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row android:keyWidth="8.6%p">
+        <Key android:horizontalGap="6.8%p" android:keyLabel="A"
+            android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="S"/>
+        <Key android:keyLabel="D"/>
+        <Key android:keyLabel="F"/>
+        <Key android:keyLabel="G"/>
+        <Key android:keyLabel="H"/>
+        <Key android:keyLabel="J"/>
+        <Key android:keyLabel="K"/>
+        <Key android:keyLabel="L" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row android:keyWidth="8.6%p">
+        <Key android:codes="-11"
+            android:keyIcon="@drawable/ic_shift_white_24dp"
+            android:keyWidth="11.505%p" android:isModifier="true"
+            android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="Z"/>
+        <Key android:keyLabel="X"/>
+        <Key android:keyLabel="C"/>
+        <Key android:keyLabel="V"/>
+        <Key android:keyLabel="B"/>
+        <Key android:keyLabel="N"/>
+        <Key android:keyLabel="M"/>
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyWidth="15.3%p"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/ic_backspace_white_24dp" />
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+    <Key android:keyLabel="123"
+        android:codes="-22"
+        android:keyWidth="9%p"
+        android:keyEdgeFlags="left"/>
+    <Key android:codes="-33"
+        android:keyLabel="ا ب پ"
+        android:keyWidth="9%p"/>
+
+    <Key android:codes="32"
+        android:keyIcon="@drawable/sym_keyboard_space"
+
+        android:keyWidth="42%p"
+        android:isRepeatable="true"/>
+    <Key  android:keyLabel="-"
+        android:keyWidth="9.2%p"/>
+    <Key
+        android:codes="500000"
+        android:keyWidth="9.2%p"
+        android:keyIcon="@drawable/ic_emoticon_white" />
+    <Key android:codes="10"
+        android:keyIcon="@drawable/sym_keyboard_return"
+
+        android:keyWidth="12.7%p"
+        android:keyEdgeFlags="right"/>
+</Row>
+</Keyboard>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ime_name">Sample Soft Keyboard</string>
+
+    <!-- Symbols that are commonly considered word separators in this language -->
+
+
+    <!-- Labels on soft keys -->
+    <!-- Labels for subtype -->
+    <string name="label_subtype_generic">%s</string>
+    <string name="label_subtype_en_GB">3 Beolsik keyboard</string>
+
+    <!-- Titles for ImePreference -->
+    <string name="settings_name">Sample Soft Keyboard Settings</string>
+
+    <string name="app_name">English Keyboard</string>
+    <!-- Title for Latin keyboard  -->
+
+    <string name="simple_ime">English Keyboard</string>
+    <string name="subtype_en_US">English(English) </string>
+
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+    <string name="enable_keyboard">Enable Keyboard</string>
+    <string name="select_keyboard">Select Keyboard</string>
+    <string name="banner_ad_unit_id">app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="like_us">Like Us</string>
+    <string name="rate">Rate</string>
+    <string name="more_apps">More Apps</string>
+    <string name="share">Share</string>
+    <string name="remove_ads">Remove ads</string>
+    <string name="settings">Settings</string>
+    <string name="themes">Themes</string>
+    <string name="popup_on_key_press">Popup on key press</string>
+    <string name="sound_on_key_press">Sound on key press</string>
+    <string name="vibrate_on_key_press">Vibrate on key press</string>
+    <string name="title_activity_themes">Themes</string>
+
+
+    <string name="language_selection_title">Input languages</string>
+    <string name="select_language">Select input languages</string>
+    <string name="general_category">General</string>
+    <string name="go_to_gallery">go to gallery</string>
+
+
+</resources>

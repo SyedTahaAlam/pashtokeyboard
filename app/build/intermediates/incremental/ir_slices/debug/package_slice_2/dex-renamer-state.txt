@@ -1,0 +1,4 @@
+#Sun Jul 07 00:55:30 PKT 2019
+base.0=/home/syed/Desktop/projects/Poshto keyboard/Poshto keyboard/app/build/intermediates/transforms/dexMerger/debug/2
+path.0=classes.dex
+renamed.0=classes.dex

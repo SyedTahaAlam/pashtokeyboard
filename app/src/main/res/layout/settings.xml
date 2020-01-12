@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#ffffff"
+
+    >
+    <fragment
+        android:id="@+id/footer_fragment"
+        android:name="com.umbrellaapps.urdu.keyboard.FooterFragment"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        tools:layout="@layout/footer" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/dp16">
+
+            <LinearLayout
+                android:layout_marginBottom="@dimen/dp8"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp15">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="@dimen/dp16"
+                    android:layout_marginRight="@dimen/dp16"
+                    android:contentDescription="@null"
+                    android:src="@mipmap/pop_up_key" />
+
+                <com.umbrellaapps.urdu.keyboard.custom.ExTextView
+                    android:id="@+id/lblKeyPress"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/dp8"
+                    android:text="@string/popup_on_key_press"
+                    android:textAllCaps="true"
+                    android:textColor="@color/candidate_normal"
+                    android:textSize="@dimen/sp15"
+                    app:font="Montserrat-Bold.otf" />
+
+                <CheckBox
+                    android:id="@+id/popup_on"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:button="@null"
+                    android:background="@drawable/checkbox"
+
+                    android:checked="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="@dimen/dp8"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp15">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="@dimen/dp16"
+                    android:layout_marginRight="@dimen/dp16"
+                    android:contentDescription="@null"
+                    android:src="@mipmap/sound_on_key" />
+
+                <com.umbrellaapps.urdu.keyboard.custom.ExTextView
+                    android:id="@+id/lblKeySound"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/dp8"
+                    android:text="@string/sound_on_key_press"
+                    android:textAllCaps="true"
+                    android:textColor="@color/candidate_normal"
+                    android:textSize="@dimen/sp15"
+                    app:font="Montserrat-Bold.otf" />
+
+                <CheckBox
+                    android:id="@+id/sound_on"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/checkbox"
+                    android:button="@null"
+
+                    android:checked="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="@dimen/dp8"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp15">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="@dimen/dp16"
+                    android:layout_marginRight="@dimen/dp16"
+                    android:contentDescription="@null"
+                    android:src="@mipmap/vibrate" />
+
+                <com.umbrellaapps.urdu.keyboard.custom.ExTextView
+                    android:id="@+id/lblKeyVibrate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/dp8"
+                    android:text="@string/vibrate_on_key_press"
+                    android:textAllCaps="true"
+                    android:textColor="@color/candidate_normal"
+                    android:textSize="@dimen/sp15"
+                    app:font="Montserrat-Bold.otf" />
+
+                <CheckBox
+                    android:id="@+id/vibrate_on"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/checkbox"
+                    android:button="@null"
+                    android:checked="false" />
+            </LinearLayout>
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/dp8">
+
+                <Button
+                    android:id="@+id/btn_themes"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center_vertical|left"
+                    android:paddingLeft="85dp"
+                    android:text="@string/themes"
+                    android:textColor="@color/candidate_normal"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:id="@+id/btn_themes_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@mipmap/themes"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/promotionalAdsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp10"
+                android:gravity="center"
+                android:orientation="horizontal">
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_above="@+id/footer_fragment"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

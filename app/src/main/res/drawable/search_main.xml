@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- most important is order of layers -->
+
+    <!-- Bottom right side 2dp Shadow -->
+    <item >
+        <shape>
+
+
+
+            <corners android:radius="30dp"/>
+
+
+        </shape>
+    </item>
+
+    <!-- Bottom 2dp Shadow -->
+    <item>
+        <shape>
+
+
+            <corners android:radius="30dp"/>
+
+
+        </shape>
+    </item>
+
+    <!-- White Top color -->
+    <item >
+        <shape>
+            <solid android:color="#FFFFFF"/>
+
+            <corners android:radius="30dp"/>
+
+
+        </shape>
+    </item>
+</layer-list>

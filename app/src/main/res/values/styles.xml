@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+
+
+        <item name="colorPrimary">#ff9e04</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:fontFamily" tools:targetApi="jelly_bean">@font/pashto</item>-->
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:textColor">@color/btn_color</item>
+        <item name="android:textSize">@dimen/sp15</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_bg</item>
+    </style>
+
+    <style name="AppTheme.FullScreen">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.NoTitleBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme_Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/syed/Desktop/projects/Poshto keyboard/Poshto keyboard/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml",
+            "map": [
+                {
+                    "source": "/home/syed/.gradle/caches/transforms-2/files-2.1/3b8d52d504d010e39316c2355258a61b/res/values-ne/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "222",
+                        "endOffsets": "507"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1252",
+                        "endColumns": "222",
+                        "endOffsets": "1470"
+                    }
+                },
+                {
+                    "source": "/home/syed/.gradle/caches/transforms-2/files-2.1/dda15e518b54eb845c2621beb5cd367c/res/values-ne/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "237,316,447,560,666,772,861,956,1037,1177",
+                        "endColumns": "78,130,112,105,105,88,94,80,139,99",
+                        "endOffsets": "315,446,559,665,771,860,955,1036,1176,1276"
+                    },
+                    "to": {
+                        "startLines": "2,20,21,22,23,24,25,26,27,28",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,2876,3011,3128,3238,3348,3441,3540,3625,3769",
+                        "endColumns": "82,134,116,109,109,92,98,84,143,103",
+                        "endOffsets": "183,3006,3123,3233,3343,3436,3535,3620,3764,3868"
+                    }
+                },
+                {
+                    "source": "/home/syed/.gradle/caches/transforms-2/files-2.1/065ab1d889c3c8874b72c7eb20b2c3da/res/values-ne/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "283,396,586,718,833,1063,1197,1327,1566,1682,1877,2012,2219,2397,2489,2587",
+                        "endColumns": "112,189,131,114,229,133,129,238,115,194,134,206,177,91,97,116",
+                        "endOffsets": "395,585,717,832,1062,1196,1326,1565,1681,1876,2011,2218,2396,2488,2586,2703"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "188,305,495,631,750,980,1118,1475,1714,1834,2029,2168,2375,2557,2653,2755",
+                        "endColumns": "116,189,135,118,229,137,133,238,119,194,138,206,181,95,101,120",
+                        "endOffsets": "300,490,626,745,975,1113,1247,1709,1829,2024,2163,2370,2552,2648,2750,2871"
+                    }
+                }
+            ]
+        }
+    ]
+}
